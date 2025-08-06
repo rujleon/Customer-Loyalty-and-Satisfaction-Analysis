@@ -1,0 +1,56 @@
+# Environnements virtuels
+.venv/
+
+# Données lourdes ou sensibles à ignorés
+data/
+models/
+processing/
+modelisation/
+random_data/
+deep_learning_test/
+
+# data
+data/*
+!cleaned_customer_loyalty_data.csv
+
+
+# Models
+models/*
+!RandomForestClassifier_new_version.pkl
+
+# processing
+processing/*
+!app1.ipynb
+!process.py
+
+# modelisation
+modelisation/*
+!model_train.ipynb  
+!process.py
+
+#random_data/
+random_data/*
+!marketing_data_1000.csv
+!products_data_1000.csv
+!sales_data_1000.csv
+!customers_1000.csv
+
+
+
+
+
+# Fichiers de test ou versions alternatives de l'application
+app1.py
+app2.py
+app3.py
+app4.py
+app5.py
+app6.py
+
+
+
+# Autoriser les fichiers/dossiers principaux
+!README.md
+!app.py
+!requirements.txt
+  
